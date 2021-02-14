@@ -1,0 +1,26 @@
+{
+    "name": "ebalo/test",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "ebalo55",
+            "email": "tuema55@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ebalo\\test\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ebalo\\test\\prova"
+            ],
+            "aliases": {
+                "prova": "ebalo\\test\\prova"
+            }
+        }
+    }
+}
