@@ -12,15 +12,5 @@
         "psr-4": {
             "ebalo\\test\\": "src/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "ebalo\\test\\prova"
-            ],
-            "aliases": {
-                "prova": "ebalo\\test\\prova"
-            }
-        }
     }
 }
